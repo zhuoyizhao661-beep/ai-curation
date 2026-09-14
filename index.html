@@ -82,5 +82,5 @@ $('#export-notes').addEventListener('click',()=>{const filled=$$('[data-note]').
 if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{const e=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];if(!e)return;$$('.rail nav a').forEach(a=>{if(a.getAttribute('href')==='#'+e.target.id)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});},{rootMargin:'-15% 0px -65% 0px',threshold:0});$$('#home,section.block').forEach(el=>observer.observe(el));}
 })();
 </script>
-<script data-goatcounter="https://zhuoyi-ai-curation.goatcounter.com/count" async src="./goatcounter.js"></script>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="a7ced707-c338-484e-9555-64d81d852dab"></script>
 </body></html>
