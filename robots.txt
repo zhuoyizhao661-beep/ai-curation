@@ -22,4 +22,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://zhuoyizhao661-beep.github.io/ai-curation/sitemap.xml
+Sitemap: https://aiknow.tech/sitemap.xml
